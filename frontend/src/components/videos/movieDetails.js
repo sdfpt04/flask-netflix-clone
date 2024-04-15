@@ -5,7 +5,7 @@ const MovieDetails = ({ movie }) => {
         <div className="movie-details">
             <h2>{movie.title}</h2>
             <p>{movie.description}</p>
-            {/* Add more details like genre, release date, etc. */}
+            {}
         </div>
     );
 }
